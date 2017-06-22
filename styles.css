@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+/*navbar opacity*/
+
+#nav1
+{  
+    background-color:#000; /*whichever you want*/
+    opacity: 0.8; 
+    filter:(opacity=80);     
+    width: 100%; 
+}
+
+#myCarousel {
+     position: relative;
+    top: 100px; 
+}
+
+.title-logo {
+	width: 50%;
+}
+
+.big-image {
+    background-image: url("assets/images/header-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100%;
+    position:relative;
+}
+
+.slider_text {
+    letter-spacing: .3px;
+    color: #0095ff;
+    margin-top: 25vh;
+    text-align: center;
+    z-index: 5;
+    font-size: 50px;
+}
+
+.side-menu a {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+a:hover {
+    color: red;
+}
+
+.side-menu {
+    display: inline-block;
+    width: 20vw;
+}
+
+.courses {
+    display: inline-block;
+    width: 60vw;
+    vertical-align: top;
+}
+
+.course {
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 25vh;
+    margin: 10px;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 15px;
+}
