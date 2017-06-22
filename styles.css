@@ -88,3 +88,37 @@ h3 {
 img {
     max-width: 100%;
 }
+
+/* ::: HOLDER, CARD, FACES */
+.holder {
+  display:     inline-block;
+  width:       200px;
+  height:      auto;
+  /*perspective: 700px;*/
+}
+.card, .front, .back{
+  position:   absolute;
+  height:     inherit;
+  width:      inherit;
+  transition: all .7s;
+  transform-style:     preserve-3d;
+  backface-visibility: hidden;
+}
+
+
+/* ::: SETUP FACES */
+.flipH .back{transform: rotateY(-180deg);}
+
+/* ::: HOVER EFFECTS (Remove Automated for this to work) */
+.flipH:hover .card{ transform: rotateY(180deg); }
+
+/* ::: AUTOMATED EFFECTS */
+
+@keyframes flipH {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(-180deg); }
+}
+@-webkit-keyframes flipH {
+  0% { transform: rotateY(0deg); }
+  100% { transform: rotateY(-180deg); }
+}
