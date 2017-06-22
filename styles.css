@@ -10,7 +10,7 @@
     opacity: 0.5;     
     width: 100%; 
     border: none;
-    height: 50px;
+    height: 60px;
 }
 
 #myCarousel {
@@ -19,9 +19,9 @@
 }
 
 .title-logo {
-	height: 50px;
+	height: 55px;
+    padding-top: 8px;
     margin: 0;
-    padding:0;
 
 }
 
@@ -29,7 +29,7 @@
     background-image: url("images/header-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 40vh;
     width: 100%;
     position:relative;
 }
@@ -37,7 +37,7 @@
 .slider_text {
     letter-spacing: .3px;
     color: #0095ff;
-    margin-top: 25vh;
+    margin-top: 15vh;
     text-align: center;
     z-index: 5;
     font-size: 50px;
@@ -50,9 +50,6 @@
     font-size: 20px;
 }
 
-a:hover {
-    color: red;
-}
 
 .side-menu {
     display: inline-block;
@@ -87,4 +84,14 @@ h3 {
 
 img {
     max-width: 100%;
+}
+
+div.face-section {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+div.col-xs-12 {
+    margin-bottom: 25px;
 }
