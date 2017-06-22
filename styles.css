@@ -6,10 +6,11 @@
 
 #nav1
 {  
-    background-color:#000; /*whichever you want*/
-    opacity: 0.8; 
-    filter:(opacity=80);     
+    background-color: white; /*whichever you want*/
+    opacity: 0.5;     
     width: 100%; 
+    border: none;
+    height: 50px;
 }
 
 #myCarousel {
@@ -18,14 +19,17 @@
 }
 
 .title-logo {
-	width: 50%;
+	height: 50px;
+    margin: 0;
+    padding:0;
+
 }
 
 .big-image {
-    background-image: url("assets/images/header-background.jpg");
+    background-image: url("images/header-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     position:relative;
 }
@@ -37,6 +41,7 @@
     text-align: center;
     z-index: 5;
     font-size: 50px;
+    line-height: 1;
 }
 
 .side-menu a {
