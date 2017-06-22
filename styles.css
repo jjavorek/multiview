@@ -77,3 +77,14 @@ a:hover {
 h3 {
     font-size: 15px;
 }
+
+.code-below-this {
+   padding: 15px;
+    margin: auto;
+    height: 4000px;
+    margin-top: 30px;
+}
+
+img {
+    max-width: 100%;
+}
