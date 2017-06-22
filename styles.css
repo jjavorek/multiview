@@ -96,7 +96,7 @@ img {
   position:   absolute;
   height:     inherit;
   width:      inherit;
-  transition: all .7s;
+  transition: all 5s;
   transform-style:     preserve-3d;
   backface-visibility: hidden;
 }
