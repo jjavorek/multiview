@@ -167,3 +167,39 @@ p {
     margin: 0;
     color: maroon;
 }
+
+div.written-prof {
+    display: inline-block;
+}
+
+#justin {
+ margin: auto;
+ max-width: 1000px;
+ padding-top: 40px;
+}
+
+#justin .photo-prof {
+    width: 45%;
+    display: inline-block;
+}
+
+#justin .written-prof {
+    width: 54%;
+    background: lightgray;
+    height: 438px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4;
+}
+
+ #meet {
+      font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+    color: black;
+    text-align: center;
+    line-height: 1;
+    padding-top: 20px;
+}
