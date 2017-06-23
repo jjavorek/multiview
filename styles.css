@@ -181,7 +181,10 @@ div.written-prof {
 #justin .photo-prof {
     width: 45%;
     display: inline-block;
+     border-radius: 7px;
 }
+
+
 
 #justin .written-prof {
     width: 54%;
@@ -190,6 +193,7 @@ div.written-prof {
     display: inline-block;
     vertical-align: top;
     margin-right: -4;
+    border-radius: 10px;
 }
 
  #meet {
