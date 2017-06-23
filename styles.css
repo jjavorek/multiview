@@ -207,3 +207,13 @@ div.written-prof {
     line-height: 1;
     padding-top: 20px;
 }
+
+#job{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#about{
+padding-left: 3%;
+font-size: 130%;
+}
